@@ -1,0 +1,120 @@
+/* fonts styles */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* body styles */
+body{
+  background-color: #F1F1F3;
+}
+
+  /* header styles */
+
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+    align-items: center;
+  }
+
+  .header-title{
+    font-size: 32px;
+    color: #0E0E0E;
+  }
+
+  .header-button{
+    font-size: 18px;
+    color: #006A50;
+    width: 116px;
+    height: 52px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+  }
+
+  /* hero styles */
+
+  .hero-section{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    gap: 64px;
+padding: 80px 60px 80px 60px;
+  }
+
+  .hero-header{
+font-size: 24px;
+color: rgba(14, 14, 14, 0.5);
+  }
+
+  .hero-description{
+    font-size: 56px;
+    color: #0E0E0E;
+
+  }
+
+  .hero-button{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 10px;
+    padding: 17px 34px 17px 34px;
+    border: none;
+
+  }
+
+  /* pilar styles */
+
+  .pilar{
+    margin: 80px 160px 0 160px;
+  }
+
+  .pilar-container{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+  }
+
+.container{
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.pilars-title{
+  font-size: 40px;
+  color: #0E0E0E;
+}
+
+.pilar-title{
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.pilar-description{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
