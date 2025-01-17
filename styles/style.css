@@ -23,6 +23,17 @@
     font-style: normal;
   }
 
+  /* share styles */
+  .color1{
+    background-color: rgba(84, 144, 245, 0.2);
+
+  }
+  .color2{
+    background-color: #C6E4D6;
+  }
+.color3{
+  background-color: #F7EBCF;
+}
   /* body styles */
 body{
   background-color: #F1F1F3;
@@ -117,4 +128,54 @@ color: rgba(14, 14, 14, 0.5);
 .pilar-description{
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
+}
+
+/* vision styles */
+
+.vision{
+margin: 80px 160px 0 160px;
+}
+
+.vision-title{
+  font-size: 40px;
+  color: #0E0E0E;
+
+}
+.vision-description{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-container{
+  display: flex;
+  gap: 24px;
+}
+
+.vision-card{
+  padding: 32px;
+  border-radius: 10px;
+}
+.vision-buttons1{
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #5490F5;
+  border-radius: 10px;
+  padding: 11px 20px;
+  border: none;
+}
+.vision-buttons2{
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #09A15C;
+  border-radius: 10px;
+  padding: 11px 20px;
+  border: none;
+}
+.vision-buttons3{
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #FFC239;
+  border-radius: 10px;
+  padding: 11px 20px;
+  border: none;
 }
